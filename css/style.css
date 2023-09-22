@@ -106,7 +106,6 @@ header nav ul li a {/*LINKS DENTRO DE LAS LISTAS*/
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 510px;
     align-items: center;
 }
 
@@ -128,7 +127,6 @@ header nav ul li a {/*LINKS DENTRO DE LAS LISTAS*/
     margin-top: 20px;
     border-radius: 10px;
 }
-
 
 
 /*///////////////////////////////////////////////////////////////////*/
@@ -293,7 +291,6 @@ header nav ul li a {/*LINKS DENTRO DE LAS LISTAS*/
 .footer-box1-icon_logo {
     margin-top: 20%;
     margin-bottom: 20%;
-    margin-left: 10%;
     width: 300px;
     height: 300px;
     border-radius: 70px;
@@ -317,6 +314,13 @@ header nav ul li a {/*LINKS DENTRO DE LAS LISTAS*/
     margin-top: 10px;
     text-align: center;
 }
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    transition: 0s;
+}
+
 
 .footer_BOX3-REDES img{
     width: 60px;
