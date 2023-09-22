@@ -305,11 +305,6 @@ header nav ul li a {/*LINKS DENTRO DE LAS LISTAS*/
     text-decoration: none;
 }
 
-.footer_BOX2-LINKS a:hover {
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-    transition: 0s;
-}
 
 .footer_BOX3-REDES ul li {
     display: inline-block;
