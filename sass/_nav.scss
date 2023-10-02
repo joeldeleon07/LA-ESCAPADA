@@ -1,0 +1,47 @@
+/*EDICION BODY*/
+/*DISPLAY DEL HEADER Y NAV*/ 
+
+header{
+    background-color: rgba(108, 255, 182, 0.658);
+    width: 100%;
+    height: 80px;
+    display: flex; /*CONVERTIMOS EN FLEX EL HEADER PARA PODER ACOMODAR LOS HIJOS*/
+    
+}
+
+nav {
+    display: flex; /*FLEX AL NAV PARA ACOMODAR TODOS SUS ELEMENTOS*/
+    align-items: center; /*ALINEACION ARRIBA/ABAJO*/
+    justify-content: space-between; /*ALINEACION IZQ/DER*/
+    width: 100%;
+    margin: 0 5%;
+}
+
+/*/////////////////////////////////////////*/
+
+/*EDICION DE TITULO*/
+.nav-BOX1_TITULO { /*CONTENEDOR TITULO E IMG*/
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 35px;
+    text-decoration-line: underline;
+    text-align: start;
+}
+
+/*EDICION DE LISTAS Y SU CONTENIDO*/
+
+header nav ul li { /*LISTAS DEL CONTENEDOR UL*/
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {/*LINKS DENTRO DE LAS LISTAS*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+
+/*/////////////////////////////////////////////////////*/

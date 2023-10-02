@@ -1,0 +1,86 @@
+/*EDICION BANNER*/
+
+.portada img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*PARRAFO DESCRIPTIVO*/
+.container_info_portada {
+    font-size: 24px;
+    text-align: justify;
+    text-align: center;
+    
+}
+
+/*////////////////////////////////////////*/
+
+/*SECTION LOGO Y MAPS*/
+
+.container-img-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+}
+/*REPARTO MITAD DE TAMAÑO PARA AMBAS CAJAS CONTENEDORAS*/
+.container-img_logo {
+    width: 50%;
+    height: 100%;
+    padding: 10px 20px;
+}
+.container-info-maps {
+    width: 50%;
+    height: 100%;
+    padding: 10px 20px;
+}
+/*100% DEL ANCHO PARA LA IMAGEN PARA HACERLO ADAPTATIVO*/
+.container-img_logo img {
+    width: 100%;
+    height: 100%;
+} 
+/*CONTENEDOR DE LA CAJA MAPA Y TITULO*/
+.container-info-maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+/*EDICION TITULO*/
+.container-info-maps-box1_H1 {
+    font-family:  'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+/*EDICION IFRAME MAPA*/
+.container-info-maps-box2_Maps {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .container-img-logo {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+    .container-img_logo {
+        width: 100%;
+        height: 50%;
+        padding: 20px 20px;
+    }
+    .container-info-maps {
+        width: 100%;
+        height: 50%;
+        padding: 10px 20px;
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////*/

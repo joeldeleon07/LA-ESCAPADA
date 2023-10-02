@@ -1,0 +1,31 @@
+/*RESETEO DE ESTILO CON "*"(de toda la hoja)*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /*border: 1px solid red; CORROBORAR LA BOX DE NUESTRO INDEX*/
+}
+
+
+
+ul , a {
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    transition: 0s;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+
+
+main{
+    margin: 0 10% 0 10%;
+}
