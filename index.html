@@ -18,11 +18,14 @@
             <div>
                 <h1 class="nav-BOX1_TITULO">LA ESCAPADA</h1>
             </div>           
-            <ul>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><i class="fa-solid fa-xmark"></i></li>
                 <li><a href="pages/inicio.html">Inicio</a></li>
                 <li><a href="pages/galeria.html">Galería</a></li>
                 <li><a href="pages/contacto.html">Contacto</a></li>
                 <li><a href="pages/nosotros.html">Nosotros</a></li>
+                <li class="menuButton" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></li>
+            </ul>
             </ul>
         </nav>
     </header>
@@ -73,5 +76,6 @@
             </ul>
         </div>
     </footer>
+    <script src="js/nav.js"></script>
 </body>
 </html>
