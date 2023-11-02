@@ -1,10 +1,10 @@
 
 
 /*IMPORT RESET*/
-@import "reset";
+@import "formatos/reset";
 /*IMPORT GENERAL*/
-@import "nav";
-@import "footer";
+@import "formatos/header";
+@import "formatos/footer";
 
 /*IMPORT INICIO*/
 @import "inicio/inicio";
@@ -12,8 +12,5 @@
 @import "galeria/galeria";
 /*IMPORT CONTACTO*/
 @import "contacto/contacto";
-
-/*IMPORT NOSOTROS*/
-@import 
 
 
